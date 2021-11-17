@@ -49,7 +49,7 @@ namespace AsyncBreakfast
 
         private static Bacon FryBacon(int slices)
         {
-            Console.WriteLine($@"putting { slices} slices of bacon in the 
+            Console.WriteLine($@"putting { slices} slice of bacon in the 
                     pan");
             Console.WriteLine("cooking first side of bacon...");
             for (int slice = 0; slice < slices; slice++)
@@ -70,7 +70,7 @@ namespace AsyncBreakfast
             Console.Write($"cracking {howMany} eggs");
             Console.WriteLine("cooking the eggs...");
             Task.Delay(3000).Wait();
-            Console.WriteLine("Put eggs on plate");
+            Console.WriteLine("Putting eggs on plate");
 
             return new Egg();
         }
