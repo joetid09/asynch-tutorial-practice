@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "t6L6D05oC1vPinvTrTxxMS4p+U1Sa4tU/99A7bglOsoOqETFxfvGCaKxO3bUyLiP/GZg0SkcNDEKlEVHe2XZBQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\josep\\Documents\\BotCentric\\firstBot\\AsyncPractice\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\josep\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\josep\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.19\\microsoft.netcore.app.host.win-x64.3.1.19.nupkg.sha512"
+  ],
+  "logs": []
+}
