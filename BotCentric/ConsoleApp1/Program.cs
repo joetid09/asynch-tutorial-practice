@@ -8,7 +8,7 @@ namespace AsyncBreakfast
     {
         static void Main(string[] args)
         {
-            var breakfastSynchronized = new Breakfastsynch();
+            //var breakfastSynchronized = new Breakfastsynch();
             
 
         }
