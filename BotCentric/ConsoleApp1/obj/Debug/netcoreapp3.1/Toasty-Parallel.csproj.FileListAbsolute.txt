@@ -1,0 +1,14 @@
+C:\Users\josep\Documents\BotCentric\asynch-tutorial-practice\BotCentric\ConsoleApp1\bin\Debug\netcoreapp3.1\Toasty-Parallel.exe
+C:\Users\josep\Documents\BotCentric\asynch-tutorial-practice\BotCentric\ConsoleApp1\bin\Debug\netcoreapp3.1\Toasty-Parallel.deps.json
+C:\Users\josep\Documents\BotCentric\asynch-tutorial-practice\BotCentric\ConsoleApp1\bin\Debug\netcoreapp3.1\Toasty-Parallel.runtimeconfig.json
+C:\Users\josep\Documents\BotCentric\asynch-tutorial-practice\BotCentric\ConsoleApp1\bin\Debug\netcoreapp3.1\Toasty-Parallel.runtimeconfig.dev.json
+C:\Users\josep\Documents\BotCentric\asynch-tutorial-practice\BotCentric\ConsoleApp1\bin\Debug\netcoreapp3.1\Toasty-Parallel.dll
+C:\Users\josep\Documents\BotCentric\asynch-tutorial-practice\BotCentric\ConsoleApp1\bin\Debug\netcoreapp3.1\Toasty-Parallel.pdb
+C:\Users\josep\Documents\BotCentric\asynch-tutorial-practice\BotCentric\ConsoleApp1\obj\Debug\netcoreapp3.1\Toasty-Parallel.csprojAssemblyReference.cache
+C:\Users\josep\Documents\BotCentric\asynch-tutorial-practice\BotCentric\ConsoleApp1\obj\Debug\netcoreapp3.1\Toasty-Parallel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josep\Documents\BotCentric\asynch-tutorial-practice\BotCentric\ConsoleApp1\obj\Debug\netcoreapp3.1\Toasty-Parallel.AssemblyInfoInputs.cache
+C:\Users\josep\Documents\BotCentric\asynch-tutorial-practice\BotCentric\ConsoleApp1\obj\Debug\netcoreapp3.1\Toasty-Parallel.AssemblyInfo.cs
+C:\Users\josep\Documents\BotCentric\asynch-tutorial-practice\BotCentric\ConsoleApp1\obj\Debug\netcoreapp3.1\Toasty-Parallel.csproj.CoreCompileInputs.cache
+C:\Users\josep\Documents\BotCentric\asynch-tutorial-practice\BotCentric\ConsoleApp1\obj\Debug\netcoreapp3.1\Toasty-Parallel.dll
+C:\Users\josep\Documents\BotCentric\asynch-tutorial-practice\BotCentric\ConsoleApp1\obj\Debug\netcoreapp3.1\Toasty-Parallel.pdb
+C:\Users\josep\Documents\BotCentric\asynch-tutorial-practice\BotCentric\ConsoleApp1\obj\Debug\netcoreapp3.1\Toasty-Parallel.genruntimeconfig.cache

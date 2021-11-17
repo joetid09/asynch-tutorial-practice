@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josep\\Documents\\BotCentric\\firstBot\\AsyncPractice\\ConsoleApp1\\ConsoleApp1.csproj",
-      "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\josep\\Documents\\BotCentric\\firstBot\\AsyncPractice\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\josep\\Documents\\BotCentric\\asynch-tutorial-practice\\BotCentric\\ConsoleApp1\\Toasty-Parallel.csproj",
+      "projectName": "Toasty-Parallel",
+      "projectPath": "C:\\Users\\josep\\Documents\\BotCentric\\asynch-tutorial-practice\\BotCentric\\ConsoleApp1\\Toasty-Parallel.csproj",
       "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josep\\Documents\\BotCentric\\firstBot\\AsyncPractice\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\josep\\Documents\\BotCentric\\asynch-tutorial-practice\\BotCentric\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
