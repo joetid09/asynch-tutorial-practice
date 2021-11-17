@@ -9,7 +9,7 @@ namespace AsyncBreakfast
         static void Main(string[] args)
         {
             //var breakfastSynchronized = new Breakfastsynch();
-            
+            var breakfastAwaited = new BreakfastAwait();
 
         }
     }
