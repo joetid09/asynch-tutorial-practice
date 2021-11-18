@@ -1,16 +1,18 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 using System.Threading.Tasks;
 using Toasty;
 
-
 namespace AsyncBreakfast
 {
-
-    internal class Breakfastsynch
-    {
-        public Breakfastsynch()
+    internal class BreakfastAwait
+{
+        //Found out if you have a typo and the the Class and the method have different names
+        // then it will think that the Method is a constructor instead of a method
+        public BreakfastAwait()
         {
-            MakingBreakfast();
+            MakingBreakfastAsync();
 
 
 
@@ -26,7 +28,7 @@ namespace AsyncBreakfast
             static void ApplyButter(Types toast) =>
                Console.WriteLine("Putting butter on the toast");
 
-            static Types ToastBread(int slices)
+            static async Task<Types> ToastBreadAsync(int slices)
             {
 
                 for (int slice = 0; slice < slices; slice++)
@@ -40,7 +42,7 @@ namespace AsyncBreakfast
                 return new Types();
             }
 
-            static Bacon FryBacon(int slices)
+            static async Task<Bacon> FryBaconAsync(int slices)
             {
                 Console.WriteLine($@"putting { slices} slice of bacon in the 
                     pan");
@@ -56,7 +58,7 @@ namespace AsyncBreakfast
                 return new Bacon();
             }
 
-            static Egg FryEggs(int howMany)
+            static async Task<Egg> FryEggsAsync(int howMany)
             {
                 Console.Write("Warming the egg pan...");
                 Task.Delay(3000).Wait();
@@ -74,20 +76,28 @@ namespace AsyncBreakfast
                 return new Coffee();
             }
 
-            static void MakingBreakfast()
+            static async void MakingBreakfastAsync()
             {
                 Coffee cup = PourCoffee();
                 Console.WriteLine("coffee is ready");
 
-                Egg eggs = FryEggs(2);
+                
+                Egg eggs = await FryEggsAsync(2);
                 Console.WriteLine("eggs are ready");
 
-                Bacon bacon = FryBacon(3);
+                Bacon bacon = await FryBaconAsync(3);
                 Console.WriteLine("bacon is ready");
 
-                Types toast = ToastBread(2);
+                Task<Types> toast = ToastBreadAsync(2);
+
+                Juice oj = PourOJ();
+                Console.Write("oj is ready");
+                Console.WriteLine("Breakfast is ready!");
+
+                
             }
         }
+
 
     }
 }

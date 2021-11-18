@@ -1,4 +1,5 @@
 ﻿using Toasty;
+
 using System;
 using System.Threading.Tasks;
 
@@ -9,7 +10,7 @@ namespace AsyncBreakfast
         static void Main(string[] args)
         {
             //var breakfastSynchronized = new Breakfastsynch();
-            
+            var breakfastAwaited = new BreakfastAwait();
 
         }
     }
