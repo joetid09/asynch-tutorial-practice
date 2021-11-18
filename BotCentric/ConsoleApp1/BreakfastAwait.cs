@@ -8,8 +8,9 @@ namespace AsyncBreakfast
 {
     internal class BreakfastAwait
 {
-
-        public void BreakfastWithAwait()
+        //Found out if you have a typo and the the Class and the method have different names
+        // then it will think that the Method is a constructor instead of a method
+        public BreakfastAwait()
         {
             MakingBreakfastAsync();
 
@@ -75,7 +76,7 @@ namespace AsyncBreakfast
                 return new Coffee();
             }
 
-            static async Task MakingBreakfastAsync()
+            static async void MakingBreakfastAsync()
             {
                 Coffee cup = PourCoffee();
                 Console.WriteLine("coffee is ready");
